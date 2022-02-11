@@ -1,0 +1,21 @@
+.inner-container {
+	position: relative;
+	width: 90%;
+	padding: 50px 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: row;
+	/* flex-wrap: wrap; */
+	color: #fff;
+	margin: 0 auto;
+}
+.inner-container img {
+	position: relative;
+	width: 250px;
+}
+.inner-container .details {
+	position: relative;
+	width: 1000px;
+	margin-left: 60px;
+}
