@@ -18,8 +18,8 @@ const getPopularMovieDay = async () => {
 const getPopularMovie = async () => {
 	let applicationUrl = `https://api.themoviedb.org/3/movie/popular?api_key=${api_key}`;
 	let request = await axios.get(applicationUrl);
-	let movieDetails = request.data.results;
-	return movieDetails;
+	let popularMovie = request.data.results;
+	return popularMovie;
 };
 
 const getTopRatedMovie = async () => {
