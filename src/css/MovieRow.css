@@ -87,3 +87,9 @@
 .movie-row .movie-list .imageContainer a:hover ~ img {
 	transform: scale(1.08);
 }
+
+@media screen and (max-width: 750px) {
+	.movie-row h1 {
+		font-size: 22px;
+	}
+}

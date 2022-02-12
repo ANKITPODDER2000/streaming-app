@@ -6,7 +6,6 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	flex-direction: row;
-	/* flex-wrap: wrap; */
 	color: #fff;
 	margin: 0 auto;
 }
@@ -18,4 +17,26 @@
 	position: relative;
 	width: 1000px;
 	margin-left: 60px;
+}
+@media screen and (max-width: 1050px) {
+	.inner-container {
+		flex-direction: column;
+	}
+	.inner-container .details {
+		position: relative;
+		width: 100%;
+		margin: 30px 0px 0px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.inner-container img {
+		width: 100%;
+	}
+	.inner-container .details h1 {
+		font-size: 22px;
+	}
+	.inner-container .details p {
+		font-size: 13px;
+		margin-top: 20px;
+	}
 }
